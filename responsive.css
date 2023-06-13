@@ -1,0 +1,53 @@
+/* pc */
+@media ( min-width: 1024px ) {
+
+}
+
+/* tablet */
+@media ( min-width: 740px) and ( max-width: 1023px) {
+
+}
+
+/* mobile */
+@media ( max-width: 739px ) {
+    /* header */
+    
+
+    /* slider */
+    .slider-section{
+        width: 100%;
+    }
+
+    .slider-section h1 {
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    /* about */
+    .about-section p {
+        padding: 0 16px;
+        width: 100%;
+    }
+
+    .skill-item i {
+        font-size: 44px;
+    }
+
+    /* project */
+    .project-list{
+        flex-direction: column;
+    }
+
+    .project-item{
+        width: 100%;
+    }
+
+    /* contact */
+    .contact-list{
+        flex-direction: column;   
+    }
+
+    .contact-Item{
+        width: 50%;
+    }
+}
